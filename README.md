@@ -8,6 +8,12 @@ A content-based movie recommender system built using Python, Streamlit, and TMDB
 - Fetches real posters using TMDB API
 - Displays movie summaries
 - Clean UI built with Streamlit
+---
+
+## 🔐 API Key Setup
+
+This project uses the TMDB API to fetch movie posters. To run this:
+Get your free TMDB API key: https://www.themoviedb.org/settings/api
 
 ## 📦 How to Run
 
