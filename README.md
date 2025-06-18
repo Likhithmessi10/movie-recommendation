@@ -19,6 +19,9 @@ A content-based movie recommender system built using Python, Streamlit, and TMDB
    ```bash
    Copy code
    pip install -r requirements.txt
-3. Run the app:
+3. Build model files:
+   ```bash
+   python build_model.py
+4. Run the app:
    ```bash
     streamlit run app.py
