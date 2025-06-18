@@ -17,7 +17,6 @@ A content-based movie recommender system built using Python, Streamlit, and TMDB
    cd movie-recommender
 2. Install dependencies:
    ```bash
-   Copy code
    pip install -r requirements.txt
 3. Build model files:
    ```bash
