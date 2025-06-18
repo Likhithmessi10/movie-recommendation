@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 import requests
-import os
+
 # Load data
 movies = pd.read_pickle('movie_list.pkl')
 movies_with_overview = pd.read_csv('tmdb_5000_movies.csv')  # the one with the 'overview' column
@@ -11,7 +11,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 def fetch_poster(movie_title):
     """Uses TMDB API to fetch the poster URL"""
-    api_key = os.getenv('TMDB_API_KEY')  # Replace this
+    api_key = 'your_api_key_here'
     response = requests.get(
         f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={movie_title}"
     )
